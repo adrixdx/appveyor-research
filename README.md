@@ -1,4 +1,8 @@
 ## AppVeyor
+
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/appveyor.jpg)
+
+
 Appveyor is a specific tool made to facilitate the automatization of continuous integration, continuous delivery and continuous deployment.
 
 And those pillars means:
@@ -25,5 +29,25 @@ By the fact of using the continuous integration, thanks to AppVeyor we have a se
 ###How to use AppVeyor
 
 First of all, we need to create and account in AppVeyor
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/sign%20up.jpg)
 
-![](https://github.com/adrixdx/appveyor-research/blob/master/research/appveyor.jpg)
+You can create an account of AppVeyor or sign in with an account of Github, VisualStudio Online,or BitBucket.
+
+
+You have different packages:
+
+
+-Basic: Wich costs 29$/month and allows you to have 1 private project, 1 concurrent job, 1 GB build cache and forum support.
+
+
+-Pro: Wich costs 59$/month or 590$/year and allows you to have unlimited private project, 1 concurrent job, 5 GB build cache and priority technical support.
+
+
+-Premium:Wich costs 99$/month or 990$/year and allows you to have unlimited private project, 2 concurrent job, 20 GB build cache and priority technical support.
+
+
+Also you have a free trial of 14 days.
+
+
+
+
