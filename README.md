@@ -29,6 +29,7 @@ By the fact of using the continuous integration, thanks to AppVeyor we have a se
 ###How to use AppVeyor
 
 First of all, we need to create and account in AppVeyor
+
 ![](https://github.com/adrixdx/appveyor-research/blob/master/research/sign%20up.jpg)
 
 You can create an account of AppVeyor or sign in with an account of Github, VisualStudio Online,or BitBucket.
@@ -76,6 +77,10 @@ Now you have yor repository functionally in AppVeyor, but you need to create an 
 When you're creating an environment, first of all you need to decide a provider. In that case, it's using a Github releases.
 
 ![](https://github.com/adrixdx/appveyor-research/blob/master/research/enviroment%20creation.jpg)
+
+You will need a GitHub authentication token, and you can find it there:
+
+https://github.com/settings/tokens
 
 
 
