@@ -75,6 +75,7 @@ Now you have yor repository functionally in AppVeyor, but you need to create an 
 
 When you're creating an environment, first of all you need to decide a provider. In that case, it's using a Github releases.
 
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/enviroment%20creation.jpg)
 
 
 
