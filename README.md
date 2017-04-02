@@ -61,7 +61,19 @@ Now you have your project and the first you have to do to see the utility of App
 
 ![](https://github.com/adrixdx/appveyor-research/blob/master/research/new%20build.jpg)
  
-This will integrate all the changes mades until the last commit
+This will integrate all the changes mades until the last commit:
+
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/research%20building%20console.jpg)
+
+You have the message option to see the advices that AppVeyor makes of your code; it will help to find bugs, avoid memory leaks,...
+
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/research%20message%20build.jpg)
+
+Now you have yor repository functionally in AppVeyor, but you need to create an environment to automatize the releases: 
+
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/enviroment.jpg)
+
+When you're creating an environment, first of all you need to decide a provider. In that case, it's using a Github releases.
 
 
 
