@@ -82,6 +82,48 @@ You will need a GitHub authentication token, and you can find it there:
 
 https://github.com/settings/tokens
 
+You have a lot of provider settings, there's a list:
+
+Tag name (tag) - Optional. If not specified build tag or version is used. You can use environment variables in tag name, for example myproduct-v$(appveyor_build_version).
+
+Release name (release) - Optional. The name of release. If not specified tag name is used as release name. You can use environment variables in release name, for example product release of v$(appveyor_build_version).
+
+Release description (description) - mandatory release description. If not specified, GitHub returns 422: Unprocessable entity error.
+
+GitHub authentication token (auth_token) - OAuth token used for authentication against GitHub API. Minimal token scope is repo or public_repo to release on private or public repositories respectively. Be sure to encrypt your token using the Account → Encrypt data tool.
+Artifact to deploy (artifact) - Optional. Allows specifying one or more build artifacts to be uploaded as release assets. The value could be comma-delimited list of artifact’s file name, deployment name or regular expression matching one of these. For example bin\release\MyLib.zip or /.*\.nupkg/. Don’t forget to package your artifact first, as the deployment will fail if this value does not match artifacts.name or artifacts.path (even if the file exists.)
+
+Draft release (draft) - true if draft release should be created; default is false.
+
+Pre-release (prerelease) - true to mark release as “pre-release”; default is false.
+
+Force update (force_update) - true to overwrite files in an existing release; default is false which will fail deployment if the release already exists on GitHub.
+
+You also need a doc in your repository named appveyor.yml where you have to write the next:
+
+deploy:
+
+  release: myproduct-v$(appveyor_build_version)
+  
+  description: 'Release description'
+  
+  provider: GitHub
+  
+  auth_token:
+    secure: <your encrypted token>  # your encrypted token from GitHub
+    
+  artifact: /.*\.nupkg/             # upload all NuGet packages to release assets
+  
+  draft: false
+  
+  prerelease: false
+  
+  on:
+  
+    branch: master                 # release from master branch only
+    
+    appveyor_repo_tag: true        # deploy on tag push only
+
 
 
 
