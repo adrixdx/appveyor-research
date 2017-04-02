@@ -134,3 +134,6 @@ To make the release:
 -Build produces artifacts.
 
 
+If you need more info, you also have some guides on the website itself:
+
+https://www.appveyor.com/docs/
