@@ -12,34 +12,14 @@ The main objectives of continuous integration are: find and correct errors faste
 
 -Continuous deployment:Very similar to continuous delivery. However, in this mode, after the build server performs the validation of the build and code, the package is also prepared. However, the distribution / deployment is done automatically in the desired environment.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+By the fact of using the continuous integration, thanks to AppVeyor we have a series of benefits like:
 
-```markdown
-Syntax highlighted code block
+-Productivity increase
 
-# Header 1
-## Header 2
-### Header 3
+-Bug identification
 
-- Bulleted
-- List
+-Simple and quick distribution
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adrixdx/appveyor-research/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+###How to use AppVeyor
