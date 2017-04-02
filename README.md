@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## AppVeyor
+Appveyor is a specific tool made to facilitate the automatization of continuous integration, continuous delivery and continuous deployment.
 
-You can use the [editor on GitHub](https://github.com/adrixdx/appveyor-research/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+And those pillars means:
+-Continuous integration:
 
 ### Markdown
 
