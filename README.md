@@ -48,6 +48,22 @@ You have different packages:
 
 Also you have a free trial of 14 days.
 
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/precios.jpg)
+
+After you create an account, now you can select a repository of different programming tools:
+
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/research%20repositorio.jpg)
+
+Select one and you can start using AppVeyor. In that case, it's using a Github repository.
+
+
+Now you have your project and the first you have to do to see the utility of AppVeyor is create a new build:
+
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/new%20build.jpg)
+ 
+This will integrate all the changes mades until the last commit
+
+
 
 
 
