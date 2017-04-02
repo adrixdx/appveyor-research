@@ -111,9 +111,9 @@ deploy:
   provider: GitHub
   
   auth_token:
-    secure: <your encrypted token>  # your encrypted token from GitHub
+    secure: <your encrypted token>  (your encrypted token from GitHub)
     
-  artifact: /.*\.nupkg/             # upload all NuGet packages to release assets
+  artifact: /.*\.nupkg/  (upload all NuGet packages to release assets)
   
   draft: false
   
@@ -121,9 +121,9 @@ deploy:
   
   on:
   
-    branch: master                 # release from master branch only
+  branch: master (release from master branch only)
     
-    appveyor_repo_tag: true        # deploy on tag push only
+  appveyor_repo_tag: true (deploy on tag push only)
 
 To make the release:
 
