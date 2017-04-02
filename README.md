@@ -78,6 +78,7 @@ When you're creating an environment, first of all you need to decide a provider.
 
 ![](https://github.com/adrixdx/appveyor-research/blob/master/research/enviroment%20creation.jpg)
 
+
 You will need a GitHub authentication token, and you can find it there:
 
 https://github.com/settings/tokens
@@ -124,6 +125,12 @@ deploy:
     
     appveyor_repo_tag: true        # deploy on tag push only
 
+To make the release:
 
+-Add new tag in local repo.
+
+-Push tag to GitHub repo and start a new AppVeyor build.
+
+-Build produces artifacts.
 
 
