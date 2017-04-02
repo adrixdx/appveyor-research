@@ -23,3 +23,7 @@ By the fact of using the continuous integration, thanks to AppVeyor we have a se
 
 
 ###How to use AppVeyor
+
+First of all, we need to create and account in AppVeyor
+
+![](https://github.com/adrixdx/appveyor-research/blob/master/research/appveyor.jpg)
